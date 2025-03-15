@@ -10,27 +10,37 @@ import XCTest
 
 final class marvelappTests: XCTestCase {
 
+    fileprivate var service : MarvelService!
+
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        try super.setUpWithError()
+        self.service = MarvelService.shared
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        self.service = nil
+        try super.tearDownWithError()
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    
+    func testCharacterConnection() async throws {
+        let (characters, total,_) = try await self.service.characters()
+        XCTAssertGreaterThan(characters.count, 1)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    
+    func testCharacterThumbnail() async throws {
+        let character = Character.mock()
+        let characterThumbnail = try await MarvelService.shared.thumbnailImage(from: character.thumbnail)
+        XCTAssertNotNil(characterThumbnail)
+    }
+    
+    func testComicCollection() async throws {
+        let (comicThumbnails,_) = try await MarvelService.shared.collection(collectionURI: Character.mock().comics.collectionURI)
+        XCTAssertGreaterThan(comicThumbnails.count, 0)
+    }
+    
+    func testEventCollection() async throws {
+        let (eventThumbnails,_) = try await MarvelService.shared.collection(collectionURI: Character.mock().events.collectionURI)
+        XCTAssertGreaterThan(eventThumbnails.count, 0)
     }
 
 }

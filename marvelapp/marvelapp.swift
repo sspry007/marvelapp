@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct marvelappApp: App {
+struct marvelapp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CharacterView()
         }
     }
 }
