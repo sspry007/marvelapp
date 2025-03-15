@@ -32,7 +32,6 @@ enum MarvelError: Error, Equatable {
             return "Unhandled http status code \(status)"
         case .unhandledError(let error):
             return "Unhandled http error \(error)"
-
         }
     }
 }
@@ -51,12 +50,15 @@ class MarvelService: ObservableObject {
     }()
     
     let baseURL = "https://gateway.marvel.com/v1/"
+    let imageCache = NSCache<AnyObject, AnyObject>()
     private var apiKey:String = ""
     private var appHash:String = ""
 
     private init() {}
     
     private func setup() {
+        self.imageCache.totalCostLimit = 100 * 1024 * 1024 // 100 MB
+        
         if let url = Bundle.main.url(forResource: "Configuration", withExtension:"plist") {
             do {
                 let data = try Data(contentsOf: url)
@@ -72,8 +74,6 @@ class MarvelService: ObservableObject {
     }
     
     func characters(offset:Int = 0,limit:Int = 21) async throws -> ([Character], Int, String) {
-        
-        
         let urlString = "\(baseURL)public/characters\(self.queryString(offset:offset,limit: limit))"
         "Marvel Service Characters offset=\(offset) limit=\(limit)".log()
 
@@ -149,6 +149,11 @@ class MarvelService: ObservableObject {
     func thumbnailImage(from thumbnail: Thumbnail) async throws -> UIImage? {
         let urlString = "\(thumbnail.path)\(ImageVariant.standardFantastic.rawValue).\(thumbnail.fileExtension)"
         if let url = URL(string: urlString) {
+            
+            if let imageFromCache = imageCache.object(forKey: url as AnyObject) as? UIImage {
+                return imageFromCache
+            }
+
             let request = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
             do {
                 let (data, response) = try await URLSession.shared.data(for: request)
@@ -158,6 +163,9 @@ class MarvelService: ObservableObject {
                 }
                 switch statusCode {
                 case 200:
+                    if let image = UIImage(data: data) {
+                        imageCache.setObject(image, forKey: url as AnyObject)
+                    }
                     return UIImage(data: data)
                 default:
                     throw MarvelError.unhandledStatus(status: statusCode)
