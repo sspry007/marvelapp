@@ -17,7 +17,7 @@ class CharacterViewModel: ObservableObject {
     private var total = 0
     let itemWidth = UIScreen.main.bounds.size.width / 3.0
 
-    func loadCharacters() async {
+    func loadCharacters() async throws -> Bool {
         do {
             let (characters, total, attribution) = try await MarvelService.shared.characters()
             DispatchQueue.main.async {
@@ -26,16 +26,18 @@ class CharacterViewModel: ObservableObject {
                 self.isConnected = true
                 self.attribution = attribution
             }
+            return true
         } catch let error {
             print(error)
             DispatchQueue.main.async {
                 self.isConnected = false
             }
+            throw error
         }
     }
     
-    func loadNextCharacters() async {
-        guard offset < total else { return }
+    func loadNextCharacters() async throws -> Bool {
+        guard offset < total else { return false }
         
         do {
             self.offset += limit
@@ -45,8 +47,10 @@ class CharacterViewModel: ObservableObject {
                 self.characters.append(contentsOf: characters)
                 self.attribution = attribution
             }
+            return true
         } catch let error {
             print(error)
+            throw error
         }
     }
 }

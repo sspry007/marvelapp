@@ -151,6 +151,7 @@ class MarvelService: ObservableObject {
         if let url = URL(string: urlString) {
             
             if let imageFromCache = imageCache.object(forKey: url as AnyObject) as? UIImage {
+                "Thumbnail Image returned from cache".log()
                 return imageFromCache
             }
 
@@ -182,7 +183,6 @@ class MarvelService: ObservableObject {
 extension MarvelService {
     
     fileprivate func queryString(offset:Int = 0,limit:Int = 21) -> String {
-        
         var queryString = "?ts=1"
         queryString.append("&apikey=\(self.apiKey)")
         queryString.append("&hash=\(self.appHash)")

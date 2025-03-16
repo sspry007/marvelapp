@@ -43,7 +43,7 @@ struct CharacterDetailView: View {
             
             if viewModel.isLoading {
                 HStack(alignment: .top, spacing: 0) {
-                    ProgressView("Loading...")
+                    ProgressView("Loading Comics and Events...")
                 }
                 .frame(maxWidth: .infinity)
                 Spacer()
@@ -52,7 +52,6 @@ struct CharacterDetailView: View {
                 
                 HStack(alignment: .top, spacing: 0) {
                     Button {
-                        print("Comic button was tapped")
                         self.comicButtonTapped = true
                         self.eventButtonTapped = false
                     } label: {
@@ -68,7 +67,6 @@ struct CharacterDetailView: View {
                     
                     Spacer()
                     Button {
-                        print("Event button was tapped")
                         self.eventButtonTapped = true
                         self.comicButtonTapped = false
                     } label: {
@@ -104,7 +102,7 @@ struct CharacterDetailView: View {
         }
         .task {
             if viewModel.comicThumbnails.isEmpty && viewModel.eventThumbnails.isEmpty {
-                await viewModel.loadCharacterDetails(character:character)
+                _ = try? await viewModel.loadCharacterDetails(character:character)
             }
         }
     }

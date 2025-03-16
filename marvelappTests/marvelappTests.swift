@@ -23,14 +23,14 @@ final class marvelappTests: XCTestCase {
     }
     
     func testCharacterConnection() async throws {
-        let (characters, total,_) = try await self.service.characters()
+        let (characters, _,_) = try await self.service.characters()
         XCTAssertGreaterThan(characters.count, 1)
     }
     
     func testCharacterThumbnail() async throws {
         let character = Character.mock()
         let characterThumbnail = try await MarvelService.shared.thumbnailImage(from: character.thumbnail)
-        XCTAssertNotNil(characterThumbnail)
+        XCTAssertNotNil(characterThumbnail, "No Character Thumbnail")
     }
     
     func testComicCollection() async throws {
@@ -41,6 +41,33 @@ final class marvelappTests: XCTestCase {
     func testEventCollection() async throws {
         let (eventThumbnails,_) = try await MarvelService.shared.collection(collectionURI: Character.mock().events.collectionURI)
         XCTAssertGreaterThan(eventThumbnails.count, 0)
+    }
+    
+    func testCharacterViewModel() async {
+        let success = try? await CharacterViewModel().loadCharacters()
+        XCTAssertNotNil(success, "Character load failed")
+    }
+    
+    func testCharacterViewModelLoadMore() async {
+        let success = try? await CharacterViewModel().loadNextCharacters()
+        XCTAssertNotNil(success, "Character load next failed")
+    }
+    
+    func testCharacterDetailViewModel() async {
+        let success = try? await CharacterDetailViewModel().loadCharacterDetails(character: Character.mock())
+        XCTAssertNotNil(success, "Character detail load failed")
+    }
+    
+    func testTruncationBelowLimit() async {
+        let input = "Hello world"
+        let expected = "Hello world"
+        XCTAssertEqual(input.truncate(to: 100, ellipsis: true), expected, "Truncation below limit failed")
+    }
+    
+    func testTruncationAboveLimit() async {
+        let input = "Hello world"
+        let expected = "Hello wo\u{2026}"
+        XCTAssertEqual(input.truncate(to: 8, ellipsis: true), expected, "Truncation above limit failed")
     }
 
 }

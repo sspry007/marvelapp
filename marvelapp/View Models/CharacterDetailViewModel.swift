@@ -14,7 +14,7 @@ class CharacterDetailViewModel: ObservableObject {
     @Published var eventAttribution: String = ""
     @Published var isLoading: Bool = false
 
-    func loadCharacterDetails(character: Character) async {
+    func loadCharacterDetails(character: Character) async throws -> Bool {
         DispatchQueue.main.async {
             self.isLoading = true
         }
@@ -31,6 +31,7 @@ class CharacterDetailViewModel: ObservableObject {
         } catch let error {
             print(error)
             dispatchGroup.leave()
+            throw error
         }
         
         dispatchGroup.enter()
@@ -44,12 +45,14 @@ class CharacterDetailViewModel: ObservableObject {
         } catch let error {
             print(error)
             dispatchGroup.leave()
+            throw error
         }
         
         dispatchGroup.notify(queue: .main) {
-            DispatchQueue.main.async {
+            //DispatchQueue.main.async {
                 self.isLoading = false
-            }
+            //}
         }
+        return true
     }
 }

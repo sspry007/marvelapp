@@ -14,6 +14,10 @@ struct CharacterView: View {
 
     var body: some View {
         NavigationStack {
+            if !viewModel.isConnected {
+                ProgressView("Loading your Characters.  Please wait.")
+                    .padding([.top],150)
+            }
             ScrollView {
                 LazyVGrid(columns:columns, spacing: 0) {
                     ForEach(viewModel.characters, id: \.self) { character in
@@ -27,10 +31,10 @@ struct CharacterView: View {
                                     image
                                         .resizable()
                                         .scaledToFit()
-                                        .frame(width: viewModel.itemWidth, alignment: .center)
                                 } placeholder: {
                                     ProgressView()
                                 }
+                                .frame(width: viewModel.itemWidth, height: viewModel.itemWidth, alignment: .center)
                                 .overlay(
                                     Text(character.name)
                                         .padding([.leading,.trailing],5)
@@ -47,7 +51,7 @@ struct CharacterView: View {
                     Button {
                         Task {
                             isRunning = true
-                            await viewModel.loadNextCharacters()
+                            _ = try? await viewModel.loadNextCharacters()
                             isRunning = false
                         }
                     }
@@ -65,11 +69,12 @@ struct CharacterView: View {
                         .font(.caption2)
                 }
             }
+            
         }
         .task {
             if viewModel.characters.isEmpty {
                 isRunning = true
-                await viewModel.loadCharacters()
+                let _ = try? await viewModel.loadCharacters()
                 isRunning = false
             }
         }

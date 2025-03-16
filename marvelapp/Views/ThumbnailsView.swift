@@ -34,6 +34,8 @@ struct ThumbnailsView: View {
                                 ProgressView()
                             }
                         }
+                        .frame(width: itemWidth, height: itemWidth, alignment: .center)
+
                     }
                 }
                 .frame(maxWidth: .infinity)
