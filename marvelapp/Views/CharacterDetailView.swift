@@ -36,7 +36,7 @@ struct CharacterDetailView: View {
                 
                 Text(character.description.truncate(to: 100, ellipsis: true))
                     .padding([.top], 25)
-                    .padding([.bottom], 50)
+                    .padding([.bottom], 10)
             }
             .padding([.leading,.trailing], 30)
             .padding([.top,.bottom], 20)

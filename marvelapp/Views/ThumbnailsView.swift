@@ -15,12 +15,12 @@ struct ThumbnailsView: View {
     let columns = [GridItem(),GridItem(),GridItem()]
 
     var body: some View {
+        Text(attribution)
+            .font(.caption2)
+            .multilineTextAlignment(.center)
+            .frame(maxWidth: .infinity)
+            .padding([.top],5)
         ScrollView {
-            Text(attribution)
-                .font(.caption2)
-                .multilineTextAlignment(.center)
-                .frame(maxWidth: .infinity)
-            
             VStack {
                 LazyVGrid(columns:columns, spacing: 0) {
                     ForEach(thumbnails, id: \.id) { thumbnail in

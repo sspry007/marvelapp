@@ -23,13 +23,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Marvel App" textAlignment="center" lineBreakMode="middleTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="GJd-Yh-RWb">
-                                <rect key="frame" x="0.0" y="266.66666666666669" width="393" height="43"/>
+                                <rect key="frame" x="0.0" y="263.33333333333331" width="393" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="onp-Z9-B1u">
-                                <rect key="frame" x="0.0" y="58.999999999999986" width="393" height="182.66666666666663"/>
+                                <rect key="frame" x="-60" y="0.0" width="513" height="238.33333333333334"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="onp-Z9-B1u" secondAttribute="height" multiplier="413:192" id="Itd-4W-wLA"/>
                                 </constraints>
@@ -38,13 +38,13 @@
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="onp-Z9-B1u" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" id="1tY-9a-PT5"/>
+                            <constraint firstItem="onp-Z9-B1u" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="-60" id="1tY-9a-PT5"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="obG-Y5-kRd" secondAttribute="centerX" id="5cz-MP-9tL"/>
                             <constraint firstItem="Bcu-3y-fUS" firstAttribute="centerX" secondItem="GJd-Yh-RWb" secondAttribute="centerX" id="Q3B-4B-g5h"/>
                             <constraint firstItem="obG-Y5-kRd" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="SfN-ll-jLj"/>
-                            <constraint firstItem="onp-Z9-B1u" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" id="TvL-0f-cE0"/>
+                            <constraint firstItem="onp-Z9-B1u" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VG6-w9-Ojy"/>
                             <constraint firstAttribute="bottom" secondItem="obG-Y5-kRd" secondAttribute="bottom" constant="20" id="Y44-ml-fuU"/>
-                            <constraint firstAttribute="trailing" secondItem="onp-Z9-B1u" secondAttribute="trailing" id="exe-2H-vq9"/>
+                            <constraint firstAttribute="trailing" secondItem="onp-Z9-B1u" secondAttribute="trailing" constant="-60" id="exe-2H-vq9"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="top" secondItem="onp-Z9-B1u" secondAttribute="bottom" constant="25" id="x6h-c2-Jri"/>
                             <constraint firstItem="GJd-Yh-RWb" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" symbolic="YES" id="x7j-FC-K8j"/>
                         </constraints>
