@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CharacterView: View {
-    @ObservedObject var viewModel = CharacterViewModel()
+    @StateObject var viewModel = CharacterViewModel()
     @State private var isRunning = false
     let columns = [GridItem(),GridItem(),GridItem()]
 

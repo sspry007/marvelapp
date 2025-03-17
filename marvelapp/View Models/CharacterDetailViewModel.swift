@@ -49,9 +49,7 @@ class CharacterDetailViewModel: ObservableObject {
         }
         
         dispatchGroup.notify(queue: .main) {
-            //DispatchQueue.main.async {
-                self.isLoading = false
-            //}
+            self.isLoading = false
         }
         return true
     }

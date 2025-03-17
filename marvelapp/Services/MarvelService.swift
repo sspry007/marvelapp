@@ -76,7 +76,6 @@ class MarvelService: ObservableObject {
     
     func characters(offset:Int = 0,limit:Int = 21) async throws -> ([Character], Int, String) {
         guard !isMocked else {
-            print(" isMocked = true")
             return await self.mockedCharacters()
         }
         
@@ -119,7 +118,6 @@ class MarvelService: ObservableObject {
     
     func collection(collectionURI: String) async throws -> ([CollectionThumbnail], String) {
         guard !isMocked else {
-            print(" isMocked = true")
             return await self.mockedCollection(collectionURI: collectionURI)
         }
         let urlString = "\(collectionURI)\(self.queryString(offset:0,limit: 20))"
