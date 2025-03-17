@@ -99,7 +99,7 @@ class MarvelService: ObservableObject {
                     do {
                         let charactersResponse:CharactersResponse = try decoder.decode(CharactersResponse.self, from: data)
                         DispatchQueue.main.async {
-                            print(data.printableJson())
+                            //print(data.printableJson())
                         }
                         return (charactersResponse.data.results,charactersResponse.data.total,charactersResponse.attributionText)
                     } catch {
@@ -141,7 +141,7 @@ class MarvelService: ObservableObject {
                     do {
                         let collectionResponse:CollectionResponse = try decoder.decode(CollectionResponse.self, from: data)
                         DispatchQueue.main.async {
-                            print(data.printableJson())
+                            //print(data.printableJson())
                         }
                         return (collectionResponse.data.results,collectionResponse.attributionText)
                     } catch {
