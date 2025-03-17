@@ -1,0 +1,2343 @@
+{
+  "code" : 200,
+  "copyright" : "© 2025 MARVEL",
+  "attributionText" : "Data provided by Marvel. © 2025 MARVEL",
+  "attributionHTML" : "<a href=\"http://marvel.com\">Data provided by Marvel. © 2025 MARVEL</a>",
+  "etag" : "2f1320303c8775d79861f8ae5ee77d72eae3fb67",
+  "status" : "Ok",
+  "data" : {
+	  "offset" : 0,
+	  "count" : 12,
+	  "total" : 12,
+	  "limit" : 20,
+	  "results" : [
+	      {
+	        "description" : "",
+	        "modified" : "2015-10-27T16:38:23-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #19",
+	        "diamondCode" : "SEP082362",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22506/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01911",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/d/03/58dd080719806",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 9,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22506/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Virtual Calligr",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/452",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Vc Chris Eliopoulos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12581",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Bong Dazo",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1400",
+	              "role" : "penciller"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Jay David Ramos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8706",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Christopher Sotomayor",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/500",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Harvey Tolibao",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8584",
+	              "role" : "inker"
+	            }
+	          ],
+	          "available" : 9
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "Join 3-D MAN, CLOUD 9, KOMODO, HARDBALL, and heroes around America in the battle that will decide the fate of the planet and the future of the Initiative program. Will the Kill Krew Army win the day?",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION Tie-In!\r<br>\"V-S DAY\"\r<br>It's been leading to this since the Hank Pym Skrull first came up with the idea for a Fifty State Initiative.  This is the final assault in the Secret Invasion, a nation-wide plan that will test the limits of 3-D MAN'S superhuman militia, THE KILL KREW ARMY! Join 3-D MAN, CLOUD 9, KOMODO, HARDBALL, and heroes around America in the battle that will decide the fate of the planet and the future of the Initiative program.  Win or lose, there's no turning back.  After today, everything changes.\r<br>Rated T+ ...$2.99\r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 22506,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-12-17T00:00:00-0500"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-11-27T00:00:00-0500"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2010-02-23T00:00:00-0500"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/22506",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22506/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #19",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49888",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #19 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49889",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/22506/avengers_the_initiative_2007_19?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-19/digital-comic/10949?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10949&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10949?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 19,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10949,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 9,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22506/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Dum Dum Dugan",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009284"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Hardball",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010821"
+	            },
+	            {
+	              "name" : "Jocasta",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009376"
+	            },
+	            {
+	              "name" : "Komodo (Melati Kusuma)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010818"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 9
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2014-08-05T14:09:33-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #18",
+	        "diamondCode" : "AUG082377",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22299/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01811",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/20/58dd057d304d1",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/9/20/4bb6d098d144a",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 7,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22299/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Andrew Hennessy",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/548",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Steve Kurth",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/4981",
+	              "role" : "penciller"
+	            },
+	            {
+	              "name" : "Matt Milla",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1405",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 7
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "Now that the Kill Krew knows Skrullowjacket's master plan, can they stop the true mission of the Fifty State Initiative? Plus, Thor Girl vs. Ultra Girl! One is more than she appears to be and the other's a Skrull!",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN!\r<br>THE EXPLOSIVE FINALE STARTS HERE!\r<br>Now that the KILL KREW knows Skrullowjacket's master plan, can they stop the TRUE purpose of the Fifty State Initiative? Plus:  It's THOR GIRL vs. ULTRA GIRL!  One is more than she appears to be... and the other's a Skrull. And, after fourteen issues, are we REALLY going to unmask MUTANT ZERO?!\r<br>Rated T+ ...$2.99",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 22299,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-10-29T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-10-09T00:00:00-0400"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2010-02-09T00:00:00-0500"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/22299",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22299/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #18",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49103",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #18 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49104",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/22299/avengers_the_initiative_2007_18?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-18/digital-comic/10948?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10948&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10948?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+	          {
+	            "name" : "Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)",
+	            "resourceURI" : "http://gateway.marvel.com/v1/public/comics/22300"
+	          }
+	        ],
+	        "issueNumber" : 18,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10948,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 13,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22299/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Cloud 9",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010823"
+	            },
+	            {
+	              "name" : "Dum Dum Dugan",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009284"
+	            },
+	            {
+	              "name" : "Gravity",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010702"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Hardball",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010821"
+	            },
+	            {
+	              "name" : "Jocasta",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009376"
+	            },
+	            {
+	              "name" : "Komodo (Melati Kusuma)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010818"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+	            {
+	              "name" : "Thor Girl",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010820"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 13
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "-0001-11-30T00:00:00-0500",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #18 (ZOMBIE VARIANT)",
+	        "diamondCode" : "AUG082378",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22300/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "5960606084-01821",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/1/10/4e94a23255996",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/20/4bb63aa561aa0",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 8,
+
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22300/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Juan Doe",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1054",
+	              "role" : "penciller (cover)"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Andrew Hennessy",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/548",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Steve Kurth",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/4981",
+	              "role" : "penciller"
+	            },
+	            {
+	              "name" : "Matt Milla",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1405",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 8
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN!\r<br>THE EXPLOSIVE FINALE STARTS HERE!\r<br>Now that the KILL KREW knows Skrullowjacket's master plan, can they stop the TRUE purpose of the Fifty State Initiative? Plus:  It's THOR GIRL vs. ULTRA GIRL!  One is more than she appears to be... and the other's a Skrull. And, after fourteen issues, are we REALLY going to unmask MUTANT ZERO?!\r<br>Rated T+ ...$2.99\r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 22300,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-10-29T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-10-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/22300",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22300/stories",
+	          "items" : [
+	            {
+	              "name" : "Avengers: The Initiative (2007) #18, Zombie Variant",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49105",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #18, Zombie Variant - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/49106",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/22300/avengers_the_initiative_2007_18_zombie_variant/zombie_variant?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+	          {
+	            "name" : "Avengers: The Initiative (2007) #18",
+	            "resourceURI" : "http://gateway.marvel.com/v1/public/comics/22299"
+	          }
+	        ],
+	        "issueNumber" : 18,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 0,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 9,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/22300/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Cloud 9",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010823"
+	            },
+	            {
+	              "name" : "Dum Dum Dugan",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009284"
+	            },
+	            {
+	              "name" : "Gravity",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010702"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Komodo (Melati Kusuma)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010818"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+	            {
+	              "name" : "Slapstick",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011057"
+	            }
+	          ],
+	          "available" : 9
+	        },
+	        "variantDescription" : "ZOMBIE VARIANT"
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2014-08-05T14:09:31-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #17",
+	        "diamondCode" : "JUL082310",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21975/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01711",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/a0/58dd03dc2ec00",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/50/4bb676b26c606",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21975/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Jay David Ramos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8706",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Harvey Tolibao",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8584",
+	              "role" : "inker"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "Join Mutant Zero, Trauma, Bengal, Constrictor, and Ant-Man as they undertake this war's most dangerous mission: to take out the Skrull Spider-Woman! Plus, a new Avenger and more clues as to Mutant Zero's identity!",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN\r<br>NEW CLUES TO MUTANT ZERO'S IDENTITY AND AN AVENGER RETURNS!\r<br>Camp Hammond has been overrun, not just by the occupying Skrull army, but by the SKRULL QUEEN, herself!  Well guess what?  That's just what the SHADOW INITIATIVE wanted!  Join MUTANT ZERO, TRAUMA, BENGAL, CONSTRICTOR, and ANT-MAN as they try this war's most dangerous mission: to take out the SKRULL-SPIDER-WOMAN!  That IS why you stayed behind, right ANT-MAN? Also: As 3-D MAN and the KILL KREW carve a green, bloody swath across America, their numbers continue to grow.  And in this issue, a classic AVENGER signs up-- and joins the AVENGERS: INITIATIVE ongoing cast!\r<br>Rated T+ ...$2.99\r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 21975,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-09-24T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-09-04T00:00:00-0400"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2008-10-29T00:00:00-0400"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/21975",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21975/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #17",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/48361",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #17 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/48362",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/21975/avengers_the_initiative_2007_17?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-17/digital-comic/10721?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10721&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10721?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 17,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10721,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 13,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21975/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Bengal",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010829"
+	            },
+	            {
+	              "name" : "Constrictor",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009245"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Jocasta",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009376"
+	            },
+	            {
+	              "name" : "Komodo (Melati Kusuma)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010818"
+	            },
+	            {
+	              "name" : "Nick Fury",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009471"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+	            {
+	              "name" : "Spider-Woman (Jessica Drew)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009608"
+	            },
+	            {
+	              "name" : "Trauma",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010822"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 13
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2014-08-05T14:09:28-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #16",
+	        "diamondCode" : "JUN082352",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21741/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01611",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/c/10/58dd01dbc6e51",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/5/80/4c361ae117d12",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21741/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Stefano Caselli",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1133",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Luca Malisan",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8949",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "The Skrull Kill Krew is back! And they're ready to kill, maim, torture, and butcher every mother lovin' Skrull out there! Also, back at Camp Hammond, Ant-Man is in a giant world of trouble.",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN\r<br>For months you've heard one question over and over again: \"Who do you trust?\"  Well we've got your answer right here, Earth-boy: TRUST THE KILL KREW! Yeah, that's right, the SKRULL KILL KREW are back!  And they're ready to kill, maim, torture, and butcher every mother lovin' Skrull out there! Also, back at Camp Hammond, ANT-MAN is in a giant world of trouble-the biggest kind of trouble the SECRET INVASION can dish out.\r<br>Rated T+ ...$2.99\r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 21741,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-08-27T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-08-07T00:00:00-0400"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2009-07-07T00:00:00-0400"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/21741",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21741/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #16",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47792",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #16 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47793",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/21741/avengers_the_initiative_2007_16?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-16/digital-comic/10718?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10718&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10718?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 16,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10718,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 11,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21741/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Beta-Ray Bill",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009180"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Iron Patriot (James Rhodes)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009538"
+	            },
+	            {
+	              "name" : "Komodo (Melati Kusuma)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010818"
+	            },
+	            {
+	              "name" : "Nick Fury",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009471"
+	            },
+	            {
+	              "name" : "Thing",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009662"
+	            },
+	            {
+	              "name" : "Trauma",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010822"
+	            },
+	            {
+	              "name" : "War Machine (James Rhodes)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1017834"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 11
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2014-08-05T14:09:27-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #15",
+	        "diamondCode" : "MAY082306",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21546/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01511",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/f/c0/58dbda827bec8",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/90/4bb79730b65d5",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 8,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21546/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Mark Brooks",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/694",
+	              "role" : "penciller (cover)"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Jay David Ramos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8706",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Christina Strain",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/627",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Harvey Tolibao",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/8584",
+	              "role" : "penciller"
+	            }
+	          ],
+	          "available" : 8
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "It's up to the Initiative to face off against the first major Skrull strike force! And on the battle field, the cadet with the biggest secret has to choose which side he's really on. Plus, a new low for Ant-Man and a new danger for War Machine!",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN!\r<br>\"The Only Good Skrull...\"\r<br>With the NEW AVENGERS and the MIGHTY AVENGERS trapped in the Savage Land, it's up to the AVENGERS INITIATIVE to face off against the first major strike of the Skrull Invasion!  There, on the field of battle, the cadet with the biggest secret has to choose how red (or green) his blood really is.  Heroes will fall.  Heroes will die.  And one shall rise. All THIS and:  A new cowardly low for ANT-MAN!  A new danger for WAR MACHINE!  And 3-D MAN gains a \"killer\" new \"krew\"!\r<br>Rated T+ ...$2.99\r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 21546,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-07-23T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-07-03T00:00:00-0400"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2009-06-02T00:00:00-0400"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/21546",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21546/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #15",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47498",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #15 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47499",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/21546/avengers_the_initiative_2007_15?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-15/digital-comic/10716?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10716&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10716?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 15,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10716,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 8,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21546/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Gauntlet (Joseph Green)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009316"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Iron Patriot (James Rhodes)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009538"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+
+	            {
+	              "name" : "War Machine (James Rhodes)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1017834"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 8
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : null,
+	        "modified" : "-0001-11-30T00:00:00-0500",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)",
+	        "diamondCode" : "",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/24571/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "5960606084-01421",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/a/30/4e948fb5e9b52",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 7,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/24571/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Mark Brooks",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/694",
+	              "role" : "penciller (cover)"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Stefano Caselli",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1133",
+	              "role" : "penciller"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Daniele Rudoni",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1134",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 7
+	        },
+	        "textObjects" : [
+
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 24571,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-06-25T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-06-05T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/24571",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/24571/stories",
+	          "items" : [
+	            {
+	              "name" : "Avengers: The Initiative (2007) #14, Spotlight Variant",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/54370",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #14, Spotlight Variant - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/54371",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/24571/avengers_the_initiative_2007_14_spotlight_variant/spotlight_variant?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+	          {
+	            "name" : "Avengers: The Initiative (2007) #14",
+	            "resourceURI" : "http://gateway.marvel.com/v1/public/comics/21366"
+	          }
+	        ],
+	        "issueNumber" : 14,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 0,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 7,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/24571/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+	            {
+	              "name" : "Super-Skrull",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009639"
+	            },
+	            {
+	              "name" : "Tigra (Greer Nelson)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009670"
+	            },
+	            {
+	              "name" : "Trauma",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010822"
+	            }
+	          ],
+	          "available" : 7
+	        },
+	        "variantDescription" : "SPOTLIGHT VARIANT"
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2014-08-05T14:09:26-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 2.9900000000000002
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Avengers: The Initiative (2007) #14",
+	        "diamondCode" : "APR082297",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21366/events",
+	          "items" : [
+	            {
+	              "name" : "Secret Invasion",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/events/269"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "upc" : "5960606084-01411",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/c/60/58dbce634ea70",
+	            "extension" : "jpg"
+	          },
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/3/30/4bb7c84053318",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21366/creators",
+	          "items" : [
+	            {
+	              "name" : "Tom Brevoort",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2133",
+	              "role" : "editor"
+	            },
+	            {
+	              "name" : "Vc Joe Caramagna",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5251",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Stefano Caselli",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1133",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Christos Gage",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/11765",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dan Slott",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12983",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Daniele Rudoni",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1134",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_preview_text",
+	            "text" : "The fates of The Initiative, the United States, and Planet Earth hang in the balance. Plus: Former Avenger, Delroy Garret, assumes the mantle and arsenal of Earth's greatest Skrull-Hunter, The 3-D Man.",
+	            "language" : "en-us"
+	          },
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : "SECRET INVASION TIE-IN\r<br>\"We Have Met the Enemy and He Is Us!\"\r<br>During the INFILTRATION, a Skrull at the heart of the Camp Hammond said these words: \"It won't be long until we have a Skrull in every state! \"Now that Skrull stands revealed and the fate of The Initiative, the United States, and Planet Earth hang in the balance. Plus:  Former Avenger, Delroy Garret, assumes the mantle and arsenal of Earth's greatest Skrull-Hunter, THE 3-D MAN.  He's here to chew bubblegum and kick some Skrull-@$$.  And he's all out of bubblegum.\r<br>Rated T+ ...$2.99 \r<br>",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 32,
+	        "ean" : "",
+	        "id" : 21366,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2008-06-25T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "2008-06-05T00:00:00-0400"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2009-02-10T00:00:00-0500"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2011-08-09T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/21366",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21366/stories",
+	          "items" : [
+	            {
+	              "name" : "AVENGERS: THE INITIATIVE (2007) #14",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47184",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Avengers: The Initiative (2007) #14 - Int",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/47185",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/21366/avengers_the_initiative_2007_14?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Avengers-The-Initiative-14/digital-comic/10715?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=10715&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/10715?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+	          {
+	            "name" : "Avengers: The Initiative (2007) #14 (SPOTLIGHT VARIANT)",
+	            "resourceURI" : "http://gateway.marvel.com/v1/public/comics/24571"
+	          }
+	        ],
+	        "issueNumber" : 14,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Avengers: The Initiative (2007 - 2010)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/1945"
+	        },
+	        "digitalId" : 10715,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 9,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/21366/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Ant-Man (Eric O'Grady)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010802"
+	            },
+	            {
+	              "name" : "Avengers",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009165"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Skrulls",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009599"
+	            },
+	            {
+	              "name" : "Super-Skrull",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009639"
+	            },
+	            {
+	              "name" : "Tigra (Greer Nelson)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009670"
+	            },
+	            {
+	              "name" : "Trauma",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010822"
+	            },
+	            {
+	              "name" : "Yellowjacket (Hank Pym)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009737"
+	            }
+	          ],
+	          "available" : 9
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : null,
+	        "modified" : "2013-06-05T11:24:31-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 0
+	          },
+	          {
+	            "type" : "digitalPurchasePrice",
+	            "price" : 1.99
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Deadpool (1997) #44",
+	        "diamondCode" : "",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/8500/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/80/4f206cc0ac28a",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/8500/creators",
+	          "items" : [
+	            {
+	              "name" : "Shannon Blanchard",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/4135",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Jim Calafiore",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/5268",
+	              "role" : "penciler"
+	            },
+	            {
+	              "name" : "Virtual Calligr",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/452",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Vc Chris Eliopoulos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/12581",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Jon Holdredge",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/235",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Christopher Priest",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/110",
+	              "role" : "writer"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+
+	        ],
+	        "pageCount" : 0,
+	        "ean" : "",
+	        "id" : 8500,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "2000-09-01T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "-0001-11-30T00:00:00-0500"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2012-07-25T00:00:00-0400"
+	          },
+	          {
+	            "type" : "digitalPurchaseDate",
+	            "date" : "2013-01-29T00:00:00-0500"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/8500",
+	        "stories" : {
+	          "returned" : 2,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/8500/stories",
+	          "items" : [
+	            {
+	              "name" : "Deadpool (1997) #44",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/66410",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Deadpool (1997) #44",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/96303",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 2
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/8500/deadpool_1997_44?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "purchase",
+	            "url" : "http://comicstore.marvel.com/Deadpool-44/digital-comic/23291?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=23291&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "inAppLink",
+	            "url" : "https://applink.marvel.com/issue/23291?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 44,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Deadpool (1997 - 2002)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/2005"
+	        },
+	        "digitalId" : 23291,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 8,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/8500/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            },
+	            {
+	              "name" : "Constrictor",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009245"
+	            },
+	            {
+	              "name" : "Deadpool",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009268"
+	            },
+	            {
+	              "name" : "Edwin Jarvis",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011072"
+	            },
+	            {
+	              "name" : "Hank Pym",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011490"
+	            },
+	            {
+	              "name" : "Iron Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009368"
+	            },
+	            {
+	              "name" : "She-Hulk (Jennifer Walters)",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1009583"
+	            },
+	            {
+	              "name" : "Titania",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1010669"
+	            }
+	          ],
+	          "available" : 8
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "-0001-11-30T00:00:00-0500",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 0
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Marvel Premiere (1972) #37",
+	        "diamondCode" : "",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10225/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "",
+	        "images" : [
+
+	        ],
+	        "creators" : {
+	          "returned" : 5,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10225/creators",
+	          "items" : [
+	            {
+	              "name" : "Jim Craig",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1220",
+	              "role" : "penciler"
+	            },
+	            {
+	              "name" : "Dave Hunt",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/13094",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Joe Rosen",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1759",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Roy Thomas",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2909",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Don Warfield",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1777",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 5
+	        },
+	        "textObjects" : [
+
+	        ],
+	        "pageCount" : 0,
+	        "ean" : "",
+	        "id" : 10225,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "1977-08-01T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "-0001-11-30T00:00:00-0500"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/10225",
+	        "stories" : {
+	          "returned" : 4,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10225/stories",
+	          "items" : [
+	            {
+	              "name" : "Cover #19951",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19951",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "Code-Name:  The Cold Warrior!",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19952",
+	              "type" : "interiorStory"
+	            },
+	            {
+	              "name" : "cover from Marvel Premiere (1972) #37",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151209",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "story from Marvel Premiere (1972) #37",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151210",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 4
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/10225/marvel_premiere_1972_37?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 37,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Marvel Premiere (1972 - 1981)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/2045"
+	        },
+	        "digitalId" : 0,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10225/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "-0001-11-30T00:00:00-0500",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 0
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Marvel Premiere (1972) #36",
+	        "diamondCode" : "",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10224/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "",
+	        "images" : [
+
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10224/creators",
+	          "items" : [
+	            {
+	              "name" : "Jim Craig",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1220",
+	              "role" : "penciler"
+	            },
+	            {
+	              "name" : "Donald F. Glut",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/13718",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Roy Thomas",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2909",
+	              "role" : "writer"
+	            },
+	            {
+	              "name" : "Dave Hunt",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/13094",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Joe Rosen",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1759",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "George Roussos",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2053",
+	              "role" : "colorist"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+
+	        ],
+	        "pageCount" : 0,
+	        "ean" : "",
+	        "id" : 10224,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "1977-06-01T00:00:00-0400"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "-0001-11-30T00:00:00-0500"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/10224",
+	        "stories" : {
+	          "returned" : 4,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10224/stories",
+	          "items" : [
+	            {
+	              "name" : "Cover #19949",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19949",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "The Devil's Music!",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19950",
+	              "type" : "interiorStory"
+	            },
+	            {
+	              "name" : "cover from Marvel Premiere (1972) #36",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151207",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "story from Marvel Premiere (1972) #36",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151208",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 4
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/10224/marvel_premiere_1972_36?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 36,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Marvel Premiere (1972 - 1981)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/2045"
+	        },
+	        "digitalId" : 0,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10224/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "variantDescription" : ""
+	      },
+	      {
+	        "description" : "",
+	        "modified" : "2023-04-05T17:42:17-0400",
+	        "prices" : [
+	          {
+	            "type" : "printPrice",
+	            "price" : 0
+	          }
+	        ],
+	        "thumbnail" : {
+	          "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005",
+	          "extension" : "jpg"
+	        },
+	        "title" : "Marvel Premiere (1972) #35",
+	        "diamondCode" : "",
+	        "issn" : "",
+	        "events" : {
+	          "returned" : 0,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10223/events",
+	          "items" : [
+
+	          ],
+	          "available" : 0
+	        },
+	        "upc" : "",
+	        "images" : [
+	          {
+	            "path" : "http://i.annihil.us/u/prod/marvel/i/mg/6/60/642ddeb849005",
+	            "extension" : "jpg"
+	          }
+	        ],
+	        "creators" : {
+	          "returned" : 6,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10223/creators",
+	          "items" : [
+	            {
+	              "name" : "John Costanza",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1746",
+	              "role" : "letterer"
+	            },
+	            {
+	              "name" : "Jim Craig",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/1220",
+	              "role" : "penciler"
+	            },
+	            {
+	              "name" : "Dave Hunt",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/13094",
+	              "role" : "inker"
+	            },
+	            {
+	              "name" : "Jack Kirby",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/196",
+	              "role" : "penciller (cover)"
+	            },
+	            {
+	              "name" : "Jorge Maese",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/10105",
+	              "role" : "colorist"
+	            },
+	            {
+	              "name" : "Roy Thomas",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/creators/2909",
+	              "role" : "writer"
+	            }
+	          ],
+	          "available" : 6
+	        },
+	        "textObjects" : [
+	          {
+	            "type" : "issue_solicit_text",
+	            "text" : " Take a dive into the Marvel Universe of the 1950s! Witness the origin of one of the most bizarre heroes of all time -- the 3-D MAN! ",
+	            "language" : "en-us"
+	          }
+	        ],
+	        "pageCount" : 0,
+	        "ean" : "",
+	        "id" : 10223,
+	        "dates" : [
+	          {
+	            "type" : "onsaleDate",
+	            "date" : "1977-04-01T00:00:00-0500"
+	          },
+	          {
+	            "type" : "focDate",
+	            "date" : "-0001-11-30T00:00:00-0500"
+	          },
+	          {
+	            "type" : "unlimitedDate",
+	            "date" : "2023-04-06T00:00:00-0400"
+	          }
+	        ],
+	        "format" : "Comic",
+	        "resourceURI" : "http://gateway.marvel.com/v1/public/comics/10223",
+	        "stories" : {
+	          "returned" : 4,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10223/stories",
+	          "items" : [
+	            {
+	              "name" : "Cover #19947",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19947",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "The 3-D Man!",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/19948",
+	              "type" : "interiorStory"
+	            },
+	            {
+	              "name" : "cover from Marvel Premiere (1972) #35",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151205",
+	              "type" : "cover"
+	            },
+	            {
+	              "name" : "story from Marvel Premiere (1972) #35",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/stories/151206",
+	              "type" : "interiorStory"
+	            }
+	          ],
+	          "available" : 4
+	        },
+	        "isbn" : "",
+	        "urls" : [
+	          {
+	            "type" : "detail",
+	            "url" : "http://marvel.com/comics/issue/10223/marvel_premiere_1972_35?utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          },
+	          {
+	            "type" : "reader",
+	            "url" : "http://marvel.com/digitalcomics/view.htm?iid=46568&utm_campaign=apiRef&utm_source=7bac926974bcefa58fadf6ee40903cd8"
+	          }
+	        ],
+	        "variants" : [
+
+	        ],
+	        "issueNumber" : 35,
+	        "collections" : [
+
+	        ],
+	        "series" : {
+	          "name" : "Marvel Premiere (1972 - 1981)",
+	          "resourceURI" : "http://gateway.marvel.com/v1/public/series/2045"
+	        },
+	        "digitalId" : 46568,
+	        "collectedIssues" : [
+
+	        ],
+	        "characters" : {
+	          "returned" : 1,
+	          "collectionURI" : "http://gateway.marvel.com/v1/public/comics/10223/characters",
+	          "items" : [
+	            {
+	              "name" : "3-D Man",
+	              "resourceURI" : "http://gateway.marvel.com/v1/public/characters/1011334"
+	            }
+	          ],
+	          "available" : 1
+	        },
+	        "variantDescription" : ""
+	      }
+	    ],
+	  },
+}

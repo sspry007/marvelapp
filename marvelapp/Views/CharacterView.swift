@@ -37,8 +37,10 @@ struct CharacterView: View {
                                 .frame(width: viewModel.itemWidth, height: viewModel.itemWidth, alignment: .center)
                                 .overlay(
                                     Text(character.name)
+                                        .multilineTextAlignment(.leading)
                                         .padding([.leading,.trailing],5)
                                         .font(.caption2)
+                                        //.background(Color.black.opacity(0.25))
                                         .foregroundStyle(.white),
                                     alignment: .bottomLeading)
                             }
@@ -46,6 +48,7 @@ struct CharacterView: View {
                     }
                 }
             }
+            .padding([.top],20)
             if viewModel.isConnected {
                 VStack {
                     Button {
@@ -83,5 +86,9 @@ struct CharacterView: View {
 }
 
 #Preview {
-    CharacterView()
+
+    return CharacterView()
+        .task {
+            MarvelService.shared.isMocked = true
+        }
 }

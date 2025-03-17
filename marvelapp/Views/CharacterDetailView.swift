@@ -36,7 +36,7 @@ struct CharacterDetailView: View {
                 
                 Text(character.description.truncate(to: 100, ellipsis: true))
                     .padding([.top], 25)
-                    .padding([.bottom], 10)
+                    .padding([.bottom], 25)
             }
             .padding([.leading,.trailing], 30)
             .padding([.top,.bottom], 20)
@@ -49,7 +49,7 @@ struct CharacterDetailView: View {
                 Spacer()
             }
             else {
-                
+                Spacer()
                 HStack(alignment: .top, spacing: 0) {
                     Button {
                         self.comicButtonTapped = true
@@ -109,10 +109,8 @@ struct CharacterDetailView: View {
 }
 
 #Preview {
-    struct Preview: View {
-        var body: some View {
-            CharacterDetailView(character:Character.mock())
+    return CharacterDetailView(character:Character.mock())
+        .task {
+            MarvelService.shared.isMocked = true
         }
-    }
-    return Preview()
 }

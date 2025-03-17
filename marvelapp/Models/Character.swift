@@ -29,8 +29,6 @@ struct Character: Decodable {
                                   events: Collection(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/events", items: [], returned: 0))
         return character
     }
-
-    
 }
 
 extension Character: Hashable {

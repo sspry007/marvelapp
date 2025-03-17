@@ -49,8 +49,9 @@ class MarvelService: ObservableObject {
         return instance
     }()
     
-    let baseURL = "https://gateway.marvel.com/v1/"
-    let imageCache = NSCache<AnyObject, AnyObject>()
+    var isMocked: Bool = false
+    private let baseURL = "https://gateway.marvel.com/v1/"
+    private let imageCache = NSCache<AnyObject, AnyObject>()
     private var apiKey:String = ""
     private var appHash:String = ""
 
@@ -74,14 +75,17 @@ class MarvelService: ObservableObject {
     }
     
     func characters(offset:Int = 0,limit:Int = 21) async throws -> ([Character], Int, String) {
+        guard !isMocked else {
+            print(" isMocked = true")
+            return await self.mockedCharacters()
+        }
+        
         let urlString = "\(baseURL)public/characters\(self.queryString(offset:offset,limit: limit))"
         "Marvel Service Characters offset=\(offset) limit=\(limit)".log()
 
         if let url = URL(string: urlString) {
             var request = URLRequest(url: url,cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
-            request.httpMethod = "GET"
-            request.setValue("application/json", forHTTPHeaderField: "Accept")
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            request.setValue("gzip", forHTTPHeaderField: "Accept-Encoding")
             do {
                 let (data, response) = try await URLSession.shared.data(for: request)
                 var statusCode:Int = 0
@@ -94,6 +98,9 @@ class MarvelService: ObservableObject {
                     decoder.dateDecodingStrategy = .formatted(.marvel())
                     do {
                         let charactersResponse:CharactersResponse = try decoder.decode(CharactersResponse.self, from: data)
+                        DispatchQueue.main.async {
+                            print(data.printableJson())
+                        }
                         return (charactersResponse.data.results,charactersResponse.data.total,charactersResponse.attributionText)
                     } catch {
                         throw MarvelError.parseError
@@ -111,13 +118,16 @@ class MarvelService: ObservableObject {
     }
     
     func collection(collectionURI: String) async throws -> ([CollectionThumbnail], String) {
+        guard !isMocked else {
+            print(" isMocked = true")
+            return await self.mockedCollection(collectionURI: collectionURI)
+        }
         let urlString = "\(collectionURI)\(self.queryString(offset:0,limit: 20))"
         "Marvel Service Collection".log()
         if let url = URL(string: urlString) {
             var request = URLRequest(url: url,cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
             request.httpMethod = "GET"
-            request.setValue("application/json", forHTTPHeaderField: "Accept")
-            request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+            request.setValue("gzip", forHTTPHeaderField: "Accept-Encoding")
             do {
                 let (data, response) = try await URLSession.shared.data(for: request)
                 var statusCode:Int = 0
@@ -130,6 +140,9 @@ class MarvelService: ObservableObject {
                     decoder.dateDecodingStrategy = .formatted(.marvel())
                     do {
                         let collectionResponse:CollectionResponse = try decoder.decode(CollectionResponse.self, from: data)
+                        DispatchQueue.main.async {
+                            print(data.printableJson())
+                        }
                         return (collectionResponse.data.results,collectionResponse.attributionText)
                     } catch {
                         throw MarvelError.parseError
@@ -164,10 +177,9 @@ class MarvelService: ObservableObject {
                 }
                 switch statusCode {
                 case 200:
-                    if let image = UIImage(data: data) {
-                        imageCache.setObject(image, forKey: url as AnyObject)
-                    }
-                    return UIImage(data: data)
+                    guard let image = UIImage(data: data) else { return nil }
+                    imageCache.setObject(image, forKey: url as AnyObject)
+                    return image
                 default:
                     throw MarvelError.unhandledStatus(status: statusCode)
                 }
@@ -180,8 +192,8 @@ class MarvelService: ObservableObject {
     }
 }
 
+// MARK: Utilities
 extension MarvelService {
-    
     fileprivate func queryString(offset:Int = 0,limit:Int = 21) -> String {
         var queryString = "?ts=1"
         queryString.append("&apikey=\(self.apiKey)")
@@ -198,5 +210,40 @@ extension MarvelService {
         return digest.map {
             String(format: "%02hhx", $0)
         }.joined()
+    }
+}
+
+// MARK: Mocks
+extension MarvelService {
+    func mockedCharacters() async -> ([Character], Int, String) {
+        if let url = Bundle.main.url(forResource: "characters", withExtension:"json") {
+                do {
+                    let data = try Data(contentsOf: url)
+                    let decoder = JSONDecoder()
+                    decoder.dateDecodingStrategy = .formatted(.marvel())
+                    let charactersResponse:CharactersResponse = try decoder.decode(CharactersResponse.self, from: data)
+                    return (charactersResponse.data.results,charactersResponse.data.total,charactersResponse.attributionText)
+                } catch {
+                    return ([],0,error.localizedDescription)
+                }
+        } else {
+            return ([],0,"characters.json not present")
+        }
+    }
+    
+    func mockedCollection(collectionURI: String) async -> ([CollectionThumbnail], String) {
+        if let url = Bundle.main.url(forResource: "collection", withExtension:"json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                decoder.dateDecodingStrategy = .formatted(.marvel())
+                let collectionResponse:CollectionResponse = try decoder.decode(CollectionResponse.self, from: data)
+                return (collectionResponse.data.results,collectionResponse.attributionText)
+            } catch {
+                return ([],error.localizedDescription)
+            }
+        } else {
+            return ([],"collection.json not present")
+        }
     }
 }
