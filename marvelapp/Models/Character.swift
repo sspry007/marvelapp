@@ -25,8 +25,14 @@ struct Character: Decodable {
                                   thumbnail: Thumbnail(path: "http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784",
                                                        fileExtension: "jpg"),
                                   resourceURI: "",
-                                  comics: Collection(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/comics", items: [], returned: 0),
-                                  events: Collection(available: 1, collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/events", items: [], returned: 0))
+                                  comics: Collection(available: 1, 
+                                                     collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/comics",
+                                                     items: [],
+                                                     returned: 0),
+                                  events: Collection(available: 1, 
+                                                     collectionURI: "http://gateway.marvel.com/v1/public/characters/1011334/events",
+                                                     items: [],
+                                                     returned: 0))
         return character
     }
 }

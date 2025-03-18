@@ -27,6 +27,13 @@ final class marvelappTests: XCTestCase {
         XCTAssertGreaterThan(characters.count, 1)
     }
     
+    func testCharacterMock() async throws {
+        self.service.isMocked = true
+        let (characters, _,_) = try await self.service.characters()
+        self.service.isMocked = false
+        XCTAssertGreaterThan(characters.count, 1)
+    }
+    
     func testCharacterThumbnail() async throws {
         let character = Character.mock()
         let characterThumbnail = try await MarvelService.shared.thumbnailImage(from: character.thumbnail)
@@ -43,6 +50,11 @@ final class marvelappTests: XCTestCase {
         XCTAssertGreaterThan(eventThumbnails.count, 0)
     }
     
+    func testCharacterView() async {
+        let view = await CharacterView()
+        XCTAssertNotNil(view, "Character view failed")
+    }
+    
     func testCharacterViewModel() async {
         let success = try? await CharacterViewModel().loadCharacters()
         XCTAssertNotNil(success, "Character load failed")
@@ -51,6 +63,11 @@ final class marvelappTests: XCTestCase {
     func testCharacterViewModelLoadMore() async {
         let success = try? await CharacterViewModel().loadNextCharacters()
         XCTAssertNotNil(success, "Character load next failed")
+    }
+    
+    func testCharacterDetailView() async {
+        let view = await CharacterDetailView(character: Character.mock())
+        XCTAssertNotNil(view, "Character detail view failed")
     }
     
     func testCharacterDetailViewModel() async {
